@@ -1,0 +1,26 @@
+:root {
+  background-color: #dafffd;
+  font-family: cursive;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  font-size: large;
+}
+
+.hit {
+  background-color: rgb(201, 28, 28);
+}
+
+.container {
+  padding: 15px;
+  background-color: white;
+  border-radius: 5%;
+}
+
+.boardPosition {
+  border: 1px solid;
+  text-align: center;
+}
