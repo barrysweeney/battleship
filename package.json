@@ -5,7 +5,8 @@
   "main": "battleship.js",
   "scripts": {
     "test": "jest",
-    "watch": "jest --watch *.js"
+    "watch": "jest --watch *.js",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +14,9 @@
     "jest": "^25.3.0"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "css-loader": "^3.5.3",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }
